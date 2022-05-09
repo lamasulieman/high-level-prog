@@ -6,7 +6,7 @@ void print( int a,int b)
    cout << "after swapping :" <<a<<'\t'<<b<<endl;
 }
 
-void swap_v(int a, int b)
+void swap_v(int a, int b)      // passing as copies
 {
     int temp;
     temp = a;
@@ -15,7 +15,7 @@ void swap_v(int a, int b)
     print(a,b);
 }
 
-void swap_r(int& a, int& b)
+void swap_r(int& a, int& b)       // passing as refrences
 {
     int temp;
     temp = a;
@@ -25,7 +25,7 @@ void swap_r(int& a, int& b)
 }
 
 
-void swap_cr(const int& a, const int& b)
+void swap_cr(const int& a, const int& b)     //passing as constants
 {
     int temp, temp1;
     temp = a;
