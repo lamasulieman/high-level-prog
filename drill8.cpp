@@ -25,7 +25,7 @@ void swap_r(int& a, int& b)       // passing as refrences
 }
 
 
-void swap_cr(const int& a, const int& b)     //passing as constants
+void swap_cr(const int& a, const int& b)     //passing as constants , constants cannot be edited so we store in temp
 {
     int temp, temp1;
     temp = a;
