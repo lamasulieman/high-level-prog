@@ -8,7 +8,7 @@ struct Date {
 };
 
 
-Date::Date(int yy, int mm, int dd)
+Date::Date(int yy, int mm, int dd)        //constructer , curly brackets for initializing in main
     :y{yy}, m{mm}, d{dd}
 {
     if (m < 1 || 12 < m) error("invalid month");
