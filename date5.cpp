@@ -2,7 +2,7 @@
 
 enum class Month
 {
-    jan=1, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec
+    jan=1, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec        // constants now not later stored in a vector
 };
 
 struct Date {
