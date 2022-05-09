@@ -6,7 +6,7 @@ void print( int a,int b)
    cout << "after swapping :" <<a<<'\t'<<b<<endl;
 }
 
-void swap_r(int a, int b)
+void swap_v(int a, int b)
 {
     int temp;
     temp = a;
@@ -15,7 +15,7 @@ void swap_r(int a, int b)
     print(a,b);
 }
 
-void swap_pr(int& a, int& b)
+void swap_r(int& a, int& b)
 {
     int temp;
     temp = a;
@@ -39,8 +39,8 @@ int main()
     int x = 7;
     int y = 9;
     
-    swap_r(x, y);
-    swap_r(7, 9);
+    swap_v(x, y);
+    swap_v(7, 9);
     
     const int cx = 7;
     const int cy = 9;
@@ -51,7 +51,7 @@ int main()
     double dx = 7.7;
     double dy = 9.9;
     
-    swap_r(dx, dy);
+    swap_v(dx, dy);
     swap_cr(7.7, 9.9);
 
    
