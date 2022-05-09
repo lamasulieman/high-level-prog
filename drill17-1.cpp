@@ -22,7 +22,7 @@ void fill (int* a, int size)
 
 int main()
 {
-    int* arr = new int[10];
+    int* arr = new int[10];      // allocating memory for the array
 
     // Filling the array 
     fill(arr, 10);
