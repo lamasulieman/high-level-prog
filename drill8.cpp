@@ -30,7 +30,7 @@ void swap_cr(const int& a, const int& b)     //passing as constants
     int temp, temp1;
     temp = a;
     temp1 = b;
-    swap_pr(temp,temp1);
+    swap_r(temp,temp1);
 }
 
 
