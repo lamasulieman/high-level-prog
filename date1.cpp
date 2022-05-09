@@ -1,6 +1,6 @@
 #include "std_lib_facilities.h"
 
-struct Date {
+struct Date {      //creating a data type called date 
     int y;
     int m;
     int d;
